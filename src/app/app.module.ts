@@ -4,10 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { LikesComponent } from './likes/likes.component';
+import { ListArticleComponent } from './list-article/list-article.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    LikesComponent,
+    ListArticleComponent
   ],
     imports: [
         BrowserModule,

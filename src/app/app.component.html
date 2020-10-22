@@ -1,12 +1,5 @@
 // template
-<h2>Today's article</h2>
-<hr>
-<div *ngFor="let art of articles">
-  <a href="{{art.url}}" target="_blank">{{art.title}}</a>
-  <likes></likes>
-</div>
-<hr>
-<!--<textarea [(ngModel)]="articles.title" [value]="articles.title" cols="70" id="article-title"></textarea>-->
-<!--<textarea [(ngModel)]="articles.url" [value]="articles.url" cols="70" id="article-url"></textarea>-->
-<input (click)="updateArticle()" type="button" value="Update">
-@CodeGym, 2019
+<app-navbar></app-navbar>
+<app-list-article>
+</app-list-article>
+<app-footer></app-footer>
